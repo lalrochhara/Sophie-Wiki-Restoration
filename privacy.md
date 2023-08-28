@@ -1,35 +1,47 @@
-# Data privacy and security
-___
+## Privacy with Sophie
 
-:information_source: **Sophie respects your privacy; every part of Sophie is open source!**  
-                       `Sophie's team is constantly improving privacy and security.`
-                      
-                                                                                                                                                           
-:information_source: **We don't collect your private data!**
-                     `We don't save your messages or any other information about them.`
+:information_source: Sophie respects your privacy; every part of Sophie is open source!
+- `Sophie's team is constantly improving privacy and security.`
 
--   First and second names, User ID, Telegram username
--   Telegram language
--   Timestamp of the date when Sophie had seen the user first time
+  
+* We don't collect your private data!
+- `We don't save your messages or any other information about them.`
 
--   Chat name, username, and Chat ID
--   We are caching chat admins (1 hour after the last command)
+## What data we are saving
 
-### We are **not** logging message counts, messages texts, or their authors!
+ **Public user's data**
 
--   Speed of long queries
--   Counting of data types in all chats
--   Percents of using features in chats
--   Number of new chats in 48 hours
+First and second names,
+User ID, Telegram username
+Telegram language
+Timestamp of the date when Sophie had seen the user first time
 
+**Chat data**
+
+Chat name,
+username, and Chat ID
+We are caching chat admins (1 hour after the last command)
+
+We are not logging message counts, messages texts, or their authors!
+
+**Analytics**
+
+Speed of long queries
+Counting of data types in all chats
+Percents of using features in chats
+Number of new chats in 48 hours
+
+# Crashlytics
 Crashlytics significantly help Sophie to be stable. We are trying to log as few data as possible.
 
-# **Currently we can only log:**
+**Currently we can only log:**
 
--   Crash traceback
--   Raw update data which caused crash (with censored private information)
+Crash traceback
+Raw update data which caused crash (with censored private information)
+
 
 **Raw update example:**
+
 ```python
 {
    "message_id":[
