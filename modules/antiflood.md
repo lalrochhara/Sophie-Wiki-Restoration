@@ -17,9 +17,10 @@ Sophie: Please send expiration time `[...]
 Me: 5m (5 minutes)
 DONE!`
 
-/setfloodaction (action): `Sets the action to taken when user exceeds flood limit
-Currently supported actions:
---ban
+/setfloodaction (action): `Sets the action to taken when user exceeds flood limit`
+
+- Currently supported actions:
+`--ban
 --mute
---kick
-More soon™`
+--kick`
+More soon™
